@@ -1,47 +1,55 @@
 span {
   display: inline-block;
 }
-/* span {
+
+nav li {
   display: inline-block;
-  background-color: lightblue;
+  margin-right: 15px;
+}
+
+.rightTools {
+  float: right;
+}
+
+#topbar {
   padding: 5px;
-  border: 1px solid darkgray;
-} */
-/* 
-#one {
-  background-color:lightblue;
-  width: 150px;
-  height: 200px;
+  text-align: center;
+  background-color: rgb(52, 97, 202);
 }
 
-#two {
-  background-color: cornflowerblue;
-  width: 200px;
-  height: 50px;
+#topbarlink {
+  color: white;
+  text-decoration: none;
 }
 
-#three {
-  background-color: rgb(187, 189, 243);
-  width: 175px;
-  height: 150px;
-} */
-
-/* div,
-span {
-  margin: 1px;
+#pic {
+  position: relative;
+  width: auto;
+  height: 500px;
+  background-color: lightgrey;
 }
 
-span {
-  border: 1px solid #333;
-  
-  padding: 10px 15px;
+#icons {
+  text-align: center;
+  margin-top: 30px;
+  padding: 15px;
 }
 
-#pics span,
-#text span {
-  padding: 25px 30px;
+#icons span {
+  margin-left: 80px;
 }
 
-#text span {
-  background-color: white;
-} */
+#mini-layout {
+  text-align: center;
+}
+
+#mini-layout div {
+  display: inline-block;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.mini {
+width: 200px;
+}
